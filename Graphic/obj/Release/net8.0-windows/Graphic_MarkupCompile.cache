@@ -1,18 +1,18 @@
 ﻿Graphic
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\liliv\Source\Repos\Cozy-House\Graphic\obj\Debug\net8.0-windows\
+C:\Users\liliv\Source\Repos\Cozy-House\Graphic\obj\Release\net8.0-windows\
 Graphic
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 C:\Users\liliv\Source\Repos\Cozy-House\Graphic\App.xaml
 3-339881141
 
-8-1348473780
+6791772154
 208241086288
 ContextMenu.xaml;MainWindow.xaml;Validation.xaml;
 
