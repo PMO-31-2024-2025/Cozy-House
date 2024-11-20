@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Database_CozyHouse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1394e0865ed95cf14e2f3ca38c6a99eccc37dcdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6167038cea93f3e03c715515ae9213a2d32b8cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Database_CozyHouse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Database_CozyHouse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

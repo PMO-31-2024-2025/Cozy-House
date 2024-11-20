@@ -1,0 +1,68 @@
+﻿<Window x:Class="Graphic.RegistrationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Реєстрація" Height="600" Width="420" Background="White">
+    <Border BorderThickness="1" CornerRadius="20" BorderBrush="LightGray" Padding="20" Background="White" Margin="-18,0,-19,-6">
+        <ScrollViewer>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10">
+                    <Button Content="ВХІД"  Background="Transparent" BorderBrush="Transparent" Padding="10" Margin="0,0,150,0" Click="Button_Click_1"/>
+                    <Button Content="РЕЄСТРАЦІЯ" FontWeight="Bold" Background="Transparent" BorderBrush="Transparent" Padding="10"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Margin="0,0,0,10">
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Ім'я" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="FirstNameTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+
+
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Пошта" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="EmailTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Вік (Від 18)" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="AgeTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Місце проживання" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="AddressTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Сфера діяльності" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="FieldOfActivityTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Надаю перевагу:" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="PreferTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+
+
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Пароль" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="PasswordTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+
+                    <StackPanel Margin="0,5">
+                        <TextBlock Text="Підтвердити пароль" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox x:Name="ConfirmPasswordTextBox" Background="#F5C6A8" Padding="10" />
+                    </StackPanel>
+                </StackPanel>
+
+                <Button Grid.Row="2" Content="ЗАРЕЄСТРУВАТИСЯ" Background="White" BorderBrush="LightGray" FontWeight="Bold" Padding="10" HorizontalAlignment="Center" Margin="0,10,0,10" Width="290"
+            Click="Button_Click"/>
+            </Grid>
+        </ScrollViewer>
+    </Border>
+</Window>

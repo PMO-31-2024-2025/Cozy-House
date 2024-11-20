@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -14,6 +15,76 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\WellDone\source\repos\Cozy-House\proj\Graphic\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\barsik.png" />
+    <None Remove="Images\basya.png" />
+    <None Remove="Images\charly.png" />
+    <None Remove="Images\donation-dog.png" />
+    <None Remove="Images\Fufa.png" />
+    <None Remove="Images\google.png" />
+    <None Remove="Images\hrystya.png" />
+    <None Remove="Images\icon-bowls-and-cups.png" />
+    <None Remove="Images\icon-collars-leashes.png" />
+    <None Remove="Images\icon-medicines.png" />
+    <None Remove="Images\icon-pet-food.png" />
+    <None Remove="Images\icon-shampoos.png" />
+    <None Remove="Images\icon-sleeping-area.png" />
+    <None Remove="Images\icon-toys.png" />
+    <None Remove="Images\icon-vitamins.png" />
+    <None Remove="Images\puppy.png" />
+    <None Remove="Images\puppyANDkitty.png" />
+    <None Remove="Images\sophia.png" />
+    <None Remove="Images\timofiy.png" />
+    <None Remove="Images\zhenya.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icon-vitamins.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\WellDone\source\repos\Cozy-House\proj\Graphic\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cozy_House\Cozy_House.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\barsik.png" />
+    <Resource Include="Images\basya.png" />
+    <Resource Include="Images\charly.png" />
+    <Resource Include="Images\donation-dog.png" />
+    <Resource Include="Images\Fufa.png" />
+    <Resource Include="Images\google.png" />
+    <Resource Include="Images\hrystya.png" />
+    <Resource Include="Images\icon-bowls-and-cups.png" />
+    <Resource Include="Images\icon-collars-leashes.png" />
+    <Resource Include="Images\icon-medicines.png" />
+    <Resource Include="Images\icon-pet-food.png" />
+    <Resource Include="Images\icon-shampoos.png" />
+    <Resource Include="Images\icon-sleeping-area.png" />
+    <Resource Include="Images\icon-toys.png" />
+    <Resource Include="Images\puppy.png" />
+    <Resource Include="Images\puppyANDkitty.png" />
+    <Resource Include="Images\sophia.png" />
+    <Resource Include="Images\timofiy.png" />
+    <Resource Include="Images\zhenya.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="AboutShelter.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Update="AnimalAdoption.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
   </ItemGroup>
 
 </Project>

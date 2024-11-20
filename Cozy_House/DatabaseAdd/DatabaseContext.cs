@@ -16,7 +16,7 @@ namespace Cozy_House.DatabaseAdd
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source=C:\Users\liliv\source\repos\Cozy_House\Cozy_House\DatabaseAdd\Database\mydb.db;");
+            optionsBuilder.UseSqlite(@"Data Source=C:\Users\WellDone\source\repos\Cozy-House\proj\Cozy_House\DatabaseAdd\Database\mydb.db;");
         }
     }
 }

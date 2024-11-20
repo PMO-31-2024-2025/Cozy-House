@@ -3,11 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Graphic"
         mc:Ignorable="d"
-        Title="Validation" Height="450" Width="350" Background="White">
+        Title="Validation" Height="370" Width="350" Background="White">
+
     <Border BorderThickness="1" CornerRadius="20" BorderBrush="LightGray" Padding="20" Background="White">
-        <Grid>
+        <Grid Margin="0,-11,-11,0" Height="344" VerticalAlignment="Top">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -15,20 +15,17 @@
                 <RowDefinition Height="69*"/>
             </Grid.RowDefinitions>
 
-            <!-- Верхня навігація: Вхід і Реєстрація -->
-
             <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10">
                 <Button Content="ВХІД" FontWeight="Bold" Background="Transparent" BorderBrush="Transparent" Padding="10" Margin="0,0,150,0"/>
-                <Button Content="РЕЄСТРАЦІЯ" Background="Transparent" BorderBrush="Transparent" Padding="10"/>
+                <Button Content="РЕЄСТРАЦІЯ" Background="Transparent" BorderBrush="Transparent" Padding="10" Click="Button_Click_1"/>
             </StackPanel>
 
-            <!-- Поля для введення E-mail та Пароля -->
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="300" Margin="0,0,0,20">
-                <!-- E-mail -->
+
                 <Grid>
-                    <TextBox Name="EmailTextBox" Margin="0,0,0,10" Background="#F1CDB3" BorderThickness="1" Padding="10" FontSize="14"/>
-                    <TextBlock Text="E-mail" Foreground="Gray" Margin="10,-20,0,0" VerticalAlignment="Center"
-                           IsHitTestVisible="False" Opacity="0.6">
+                    <TextBox x:Name="EmailTextBox" Margin="0,0,0,10" Background="#F1CDB3" BorderThickness="1" Padding="10" FontSize="14"/>
+                    <TextBlock Text="E-mail" Foreground="Gray" Margin="131,-21,131,0" VerticalAlignment="Top"
+                               IsHitTestVisible="False" Opacity="0.6">
                         <TextBlock.Style>
                             <Style TargetType="TextBlock">
                                 <Style.Triggers>
@@ -44,11 +41,15 @@
                     </TextBlock>
                 </Grid>
 
-                <!-- Пароль -->
                 <Grid>
-                    <PasswordBox Name="PasswordBox" Margin="0,0,0,10" Background="#F1CDB3" BorderThickness="1" Padding="10" FontSize="14"/>
-                    <TextBlock Text="Пароль" Foreground="Gray" Margin="10,-20,0,0" VerticalAlignment="Center"
-                           IsHitTestVisible="False" Opacity="0.6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="83*"/>
+                        <ColumnDefinition Width="67*"/>
+                    </Grid.ColumnDefinitions>
+                    <PasswordBox Name="PasswordBox" Margin="0,5,0,5" Background="#F1CDB3" BorderThickness="1" Padding="10" FontSize="14"
+                                  Grid.ColumnSpan="2"/>
+                    <TextBlock Text="Пароль" Foreground="Gray" Margin="128,-13,0,0" VerticalAlignment="Top"
+                               IsHitTestVisible="False" Opacity="0.6" HorizontalAlignment="Left" Width="44" Grid.ColumnSpan="2">
                         <TextBlock.Style>
                             <Style TargetType="TextBlock">
                                 <Style.Triggers>
@@ -64,24 +65,21 @@
                     </TextBlock>
                 </Grid>
 
-                <!-- Запам'ятати мене -->
                 <CheckBox Content="Запам’ятати мене" HorizontalAlignment="Left" Margin="0,0,0,10"/>
             </StackPanel>
-            <!-- Кнопки: Ввійти, Забули пароль, Продовжити з Google -->
-            <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="300" Margin="0,146,0,0" Grid.RowSpan="3">
-                <Button Content="ВВІЙТИ" Background="#F5C6A8" Foreground="Black" Padding="10"
-                    Margin="0,10,0,10" BorderThickness="0"/>
-                <TextBlock Text="Забули пароль?" Foreground="Gray" HorizontalAlignment="Center" Margin="0,40,0,10"/>
 
-                <!-- Продовжити з Google -->
-                <Button Background="Transparent" BorderBrush="Gray" Padding="10" Margin="0,10,0,10">
+            <!--<Button Background="Transparent" BorderBrush="Gray" Padding="10" Click="Button_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                        <Image Source="pack://application:,,,/Images/google.png"
                            Width="20" Height="20" Margin="5"/>
-                        <TextBlock Text="Продовжити з Google" VerticalAlignment="Center" Margin="5"/>
-                    </StackPanel>
-                </Button>
-            </StackPanel>
+                         <TextBlock Text="Продовжити з Google" VerticalAlignment="Stretch" Margin="5"/>
+                    </StackPanel> 
+                </Button>-->
+
+            <Button Content="ВВІЙТИ" Background="#F5C6A8" Foreground="Black" Padding="10"
+                    Margin="5,22,14,22" BorderThickness="0" Grid.Row="2" Click="Button_Click"/>
         </Grid>
     </Border>
 </Window>
+
+

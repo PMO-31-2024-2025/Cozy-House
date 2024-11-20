@@ -1,0 +1,245 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:av="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="av"
+    x:Class="Graphic.AnimalAdoption"
+    Title="AnimalAdoption"
+    Height="620"
+    Width="1200">
+
+    <Window.Resources>
+        <Style x:Key="RoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="20"
+                                Padding="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="TopFrame"
+               Grid.Row="0"
+               Source="MainPage2.xaml"
+               NavigationUIVisibility="Visible"/>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
+            <StackPanel Background="White" Height="630">
+                <TextBlock Text="Наші друзі, які "
+                       FontSize="24"
+                       Foreground="Gray"
+                       FontFamily="Georgia"
+                       HorizontalAlignment="Center"
+                       Margin="2,14,0,0"/>
+                <TextBlock Text="шукають прихистку"
+           FontSize="24"
+           Foreground="Gray"
+           FontFamily="Georgia"
+           HorizontalAlignment="Center"
+           Margin="2"/>
+
+                <UniformGrid Columns="4" Margin="1" HorizontalAlignment="Center" >
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/basya.png" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Bottom" 
+                               Height="120" 
+                               Margin="5"/>
+                            <TextBlock Text="Бася" 
+                                   FontSize="18" 
+                                   Foreground="Gray"
+                                   FontFamily="Georgia"
+                                   TextAlignment="Center" 
+                                   Margin="10,5"/>
+                            <Button Content="Дізнатися більше" 
+                                FontFamily="Georgia" FontWeight="ExtraLight"
+                                Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1"
+                                Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" Click="Button_Click_1"/>
+                        </StackPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/zhenya.png" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Bottom" 
+                               Height="120" 
+                               Margin="5"/>
+                            <TextBlock Text="Женя" 
+                                   FontSize="18" 
+                                   Foreground="Gray"
+                                   FontFamily="Georgia" 
+                                   TextAlignment="Center" 
+                                   Margin="10,5"/>
+                            <Button Content="Дізнатися більше" 
+                                FontFamily="Georgia" FontWeight="ExtraLight"
+                                Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
+                                Style="{StaticResource RoundedButtonStyle}" Click="Button_Click" Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/barsik.png" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Bottom" 
+                               Height="120" 
+                               Margin="5"/>
+                            <TextBlock Text="Барсік" 
+                                   FontSize="18"  
+                                   Foreground="Gray" 
+                                   FontFamily="Georgia"
+                                   TextAlignment="Center" 
+                                   Margin="10,5"/>
+                            <Button Content="Дізнатися більше" 
+                                FontFamily="Georgia" FontWeight="ExtraLight"
+                                Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
+                                Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/sophia.png" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Bottom" 
+                               Height="120" 
+                               Margin="5"/>
+                            <TextBlock Text="Соня" 
+                                   FontSize="18" 
+                                   Foreground="Gray" 
+                                   FontFamily="Georgia"
+                                   TextAlignment="Center" 
+                                   Margin="10,5"/>
+                            <Button Content="Дізнатися більше" 
+                                FontFamily="Georgia" FontWeight="ExtraLight"
+                                Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
+                                Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+                </UniformGrid>
+                
+                <UniformGrid Columns="4" Width="688">
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/timofiy.png" 
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Bottom" 
+                            Height="120" 
+                            Margin="5"/>
+                            <TextBlock Text="Тимофій" 
+                            FontSize="18" 
+                            Foreground="Gray" 
+                            FontFamily="Georgia"
+                            TextAlignment="Center" 
+                            Margin="10,5"/>
+                            <Button Content="Дізнатися більше" 
+                            FontFamily="Georgia" FontWeight="ExtraLight"
+                            Background="#FAFAFA" 
+                            BorderBrush="#FFD3B6"
+                            BorderThickness="1" 
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/charly.png" 
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Bottom" 
+                            Height="120" 
+                            Margin="5"/>
+                            <TextBlock Text="Чарлі" 
+                            FontSize="18" 
+                            Foreground="Gray" 
+                            FontFamily="Georgia" 
+                            TextAlignment="Center" 
+                            Margin="10,5"/>
+                            <Button Content="Дізнатися більше" 
+                            FontFamily="Georgia" FontWeight="ExtraLight"
+                            Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/hrystya.png" 
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Bottom" 
+                            Height="120" 
+                            Margin="5"/>
+                            <TextBlock Text="Христя" 
+                            FontSize="18" 
+                            Foreground="Gray" 
+                            FontFamily="Georgia" 
+                            TextAlignment="Center" 
+                            Margin="10,5"/>
+                            <Button Content="Дізнатися більше"
+                            FontFamily="Georgia" FontWeight="ExtraLight"    
+                            Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+                    
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA">
+                        <StackPanel>
+                            <Image Source="pack://application:,,,/Images/Fufa.png" 
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Bottom" 
+                            Height="120" 
+                            Margin="5"/>
+                            <TextBlock Text="Фуфа" 
+                            FontSize="18" 
+                            Foreground="Gray" FontFamily="Georgia" 
+                            TextAlignment="Center" 
+                            Margin="10,5"/>
+                            <Button Content="Дізнатися більше" 
+                            FontFamily="Georgia" FontWeight="ExtraLight"    
+                            Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+                </UniformGrid>
+                <StackPanel Orientation="Horizontal" Width="199">
+
+                    <Button Content="&lt;" Margin="5" Padding="5" 
+                        Background="White" 
+                        BorderBrush="#FFD3B6" 
+                        Style="{StaticResource RoundedButtonStyle}" Width="40" />
+                    <Button Content="1" Margin="5" Padding="5" 
+                        Background="#FFD3B6" 
+                        Foreground="White" 
+                        Style="{StaticResource RoundedButtonStyle}" Width="38" />
+                    <Button Content="2" Margin="5" Padding="5" 
+                        Background="White" 
+                        BorderBrush="#FFD3B6" 
+                        Style="{StaticResource RoundedButtonStyle}" Width="39" />
+                    <Button Content="&gt;" Margin="5" Padding="5" 
+                        Background="White" 
+                        BorderBrush="#FFD3B6" 
+                        Style="{StaticResource RoundedButtonStyle}" Width="39" />
+
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        </Grid>
+</Window>
+

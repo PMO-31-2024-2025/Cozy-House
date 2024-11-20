@@ -1,0 +1,15 @@
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\bin\Debug\net8.0\Database_CozyHouse.exe
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\bin\Debug\net8.0\Database_CozyHouse.deps.json
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\bin\Debug\net8.0\Database_CozyHouse.runtimeconfig.json
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\bin\Debug\net8.0\Database_CozyHouse.dll
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\bin\Debug\net8.0\Database_CozyHouse.pdb
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.AssemblyInfoInputs.cache
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.AssemblyInfo.cs
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.csproj.CoreCompileInputs.cache
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.sourcelink.json
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.dll
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\refint\Database_CozyHouse.dll
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.pdb
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\Database_CozyHouse.genruntimeconfig.cache
+C:\Users\WellDone\source\repos\Cozy-House\proj\Database_CozyHouse\obj\Debug\net8.0\ref\Database_CozyHouse.dll
