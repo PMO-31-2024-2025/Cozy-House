@@ -3,17 +3,20 @@ using Cozy_House.models;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Runtime.Intrinsics.X86;
 using Microsoft.Data.Sqlite;
+
+
 class Program
 {
-  
     public static void Main(string[] args)
     {
         FillTestData();
     }
 
+
     public static void FillTestData()
     {
-        string connectionString = @"Data Source=C:\Users\liliv\source\repos\Cozy_House\Cozy_House\DatabaseAdd\Database\mydb.db;";
+
+        string connectionString = @"Data Source=C:\Users\WellDone\source\repos\Cozy-House\Cozy_House\DatabaseAdd\Database\mydb.db;";
         
         using (var connection = new SqliteConnection(connectionString))
         {
@@ -55,8 +58,14 @@ class Program
             }
 
             connection.Close();
+
+
         }
+
+
     }
+
+
 
     //    Shelter shelter4 = new Shelter()
     //    {

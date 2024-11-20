@@ -1,0 +1,15 @@
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\bin\Debug\net8.0\LogicAndTests.exe
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\bin\Debug\net8.0\LogicAndTests.deps.json
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\bin\Debug\net8.0\LogicAndTests.runtimeconfig.json
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\bin\Debug\net8.0\LogicAndTests.dll
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\bin\Debug\net8.0\LogicAndTests.pdb
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.AssemblyInfoInputs.cache
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.AssemblyInfo.cs
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.csproj.CoreCompileInputs.cache
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.sourcelink.json
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.dll
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\refint\LogicAndTests.dll
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.pdb
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\LogicAndTests.genruntimeconfig.cache
+C:\Users\WellDone\source\repos\Cozy-House\proj\LogicAndTests\obj\Debug\net8.0\ref\LogicAndTests.dll
