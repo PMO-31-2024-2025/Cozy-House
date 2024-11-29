@@ -52,7 +52,7 @@ namespace Graphic {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Graphic;V1.0.0.0;component/mainpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Graphic;component/mainpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -6,6 +6,80 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-  <ItemGroup />
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Update="AnimalAdoptionPage2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ContactPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPrefer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\BabyPageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\BobPageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\ChappiPageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\MarkPageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\MasyaPageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\MikePageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\MishelPageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pets\NanyPageInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AnimalAdoptionPage2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ContactPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPrefer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\BabyPageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\BobPageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\ChappiPageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\MarkPageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\MasyaPageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\MikePageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\MishelPageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pets\NanyPageInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
 </Project>

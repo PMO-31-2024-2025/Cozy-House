@@ -22,21 +22,33 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Images\baby.png" />
     <None Remove="Images\barsik.png" />
     <None Remove="Images\basya.png" />
+    <None Remove="Images\bob.png" />
+    <None Remove="Images\chappi.png" />
     <None Remove="Images\charly.png" />
     <None Remove="Images\donation-dog.png" />
+    <None Remove="Images\footer-puppy.png" />
     <None Remove="Images\Fufa.png" />
     <None Remove="Images\google.png" />
     <None Remove="Images\hrystya.png" />
     <None Remove="Images\icon-bowls-and-cups.png" />
     <None Remove="Images\icon-collars-leashes.png" />
+    <None Remove="Images\icon-email.png" />
     <None Remove="Images\icon-medicines.png" />
     <None Remove="Images\icon-pet-food.png" />
+    <None Remove="Images\icon-phone.png" />
     <None Remove="Images\icon-shampoos.png" />
     <None Remove="Images\icon-sleeping-area.png" />
     <None Remove="Images\icon-toys.png" />
     <None Remove="Images\icon-vitamins.png" />
+    <None Remove="Images\location.icon.png" />
+    <None Remove="Images\mark.png" />
+    <None Remove="Images\masya.png" />
+    <None Remove="Images\mike.png" />
+    <None Remove="Images\mishel.png" />
+    <None Remove="Images\nany.png" />
     <None Remove="Images\puppy.png" />
     <None Remove="Images\puppyANDkitty.png" />
     <None Remove="Images\sophia.png" />
@@ -45,6 +57,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\baby.png" />
+    <Resource Include="Images\bob.png" />
+    <Resource Include="Images\chappi.png" />
+    <Resource Include="Images\footer-puppy.png" />
+    <Resource Include="Images\icon-email.png" />
+    <Resource Include="Images\icon-phone.png" />
     <Resource Include="Images\icon-vitamins.png" />
   </ItemGroup>
 
@@ -71,6 +89,12 @@
     <Resource Include="Images\icon-shampoos.png" />
     <Resource Include="Images\icon-sleeping-area.png" />
     <Resource Include="Images\icon-toys.png" />
+    <Resource Include="Images\location.icon.png" />
+    <Resource Include="Images\mark.png" />
+    <Resource Include="Images\masya.png" />
+    <Resource Include="Images\mike.png" />
+    <Resource Include="Images\mishel.png" />
+    <Resource Include="Images\nany.png" />
     <Resource Include="Images\puppy.png" />
     <Resource Include="Images\puppyANDkitty.png" />
     <Resource Include="Images\sophia.png" />

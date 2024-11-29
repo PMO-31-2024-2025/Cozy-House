@@ -48,7 +48,7 @@
                        FontFamily="Georgia"
                        HorizontalAlignment="Center"
                        Margin="2,14,0,0"/>
-                <TextBlock Text="шукають прихистку"
+                <TextBlock Text="шукають прихистку:"
            FontSize="24"
            Foreground="Gray"
            FontFamily="Georgia"
@@ -111,7 +111,7 @@
                             <Button Content="Дізнатися більше" 
                                 FontFamily="Georgia" FontWeight="ExtraLight"
                                 Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
-                                Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                                Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" Click="Button_Click_3"/>
                         </StackPanel>
                     </Border>
 
@@ -131,7 +131,7 @@
                             <Button Content="Дізнатися більше" 
                                 FontFamily="Georgia" FontWeight="ExtraLight"
                                 Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
-                                Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                                Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" Click="Button_Click_4"/>
                         </StackPanel>
                     </Border>
                 </UniformGrid>
@@ -155,7 +155,7 @@
                             Background="#FAFAFA" 
                             BorderBrush="#FFD3B6"
                             BorderThickness="1" 
-                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" Click="Button_Click_5"/>
                         </StackPanel>
                     </Border>
 
@@ -175,7 +175,7 @@
                             <Button Content="Дізнатися більше" 
                             FontFamily="Georgia" FontWeight="ExtraLight"
                             Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
-                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" Click="Button_Click_6"/>
                         </StackPanel>
                     </Border>
 
@@ -195,7 +195,7 @@
                             <Button Content="Дізнатися більше"
                             FontFamily="Georgia" FontWeight="ExtraLight"    
                             Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
-                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" Click="Button_Click_7"/>
                         </StackPanel>
                     </Border>
                     
@@ -214,7 +214,7 @@
                             <Button Content="Дізнатися більше" 
                             FontFamily="Georgia" FontWeight="ExtraLight"    
                             Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1" 
-                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
+                            Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" Click="Button_Click_2"/>
                         </StackPanel>
                     </Border>
                 </UniformGrid>
@@ -235,7 +235,7 @@
                     <Button Content="&gt;" Margin="5" Padding="5" 
                         Background="White" 
                         BorderBrush="#FFD3B6" 
-                        Style="{StaticResource RoundedButtonStyle}" Width="39" />
+                        Style="{StaticResource RoundedButtonStyle}" Width="39" Click="Button_Click_Next2" Cursor="Hand"/>
 
                 </StackPanel>
             </StackPanel>

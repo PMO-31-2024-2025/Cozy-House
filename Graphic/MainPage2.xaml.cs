@@ -38,10 +38,10 @@ namespace Graphic
 
         private void Contacts_Click(object sender, MouseButtonEventArgs e)
         {
-            //Contacts contactsWindow = new Contacts();
-            //Window currentWindow = Window.GetWindow(this);
-            //contactsWindow.Show();
-            //currentWindow.Close();
+            ContactPage contactsWindow = new ContactPage();
+            Window currentWindow = Window.GetWindow(this);
+            contactsWindow.Show();
+            currentWindow.Close();
         }
     }
 }
