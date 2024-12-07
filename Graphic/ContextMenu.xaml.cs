@@ -20,7 +20,6 @@ namespace Graphic
             this.sourceElement = source;
             this.selectedText = text;
 
-            // Позиціонуємо меню в точці кліку
             this.Left = position.X;
             this.Top = position.Y;
 
@@ -38,7 +37,6 @@ namespace Graphic
 
         private void Navigate_Click(object sender, RoutedEventArgs e)
         {
-            // Додайте логіку навігації
             MessageBox.Show("Навігація");
             this.Close();
         }
@@ -54,7 +52,6 @@ namespace Graphic
 
         private void Edit_Click(object sender, RoutedEventArgs e)
         {
-            // Додайте логіку редагування
             MessageBox.Show("Редагування");
             this.Close();
         }

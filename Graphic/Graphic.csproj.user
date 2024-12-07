@@ -13,6 +13,12 @@
     <Compile Update="ContactPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ContextMenu2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ContextMenu3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MyPrefer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +55,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ContactPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ContextMenu2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ContextMenu3.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MyPrefer.xaml">

@@ -58,6 +58,7 @@
                              FontFamily="Georgia" 
                              TextAlignment="Center" 
                              VerticalAlignment="Center" 
+                             MouseLeftButtonDown="TakeAFriend_Click"
                              Cursor="Hand"/>
                 </Border>
             </StackPanel>

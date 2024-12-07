@@ -7,6 +7,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using Cozy_House.models.Cozy_House.models;
 
 namespace Cozy_House.models
 {

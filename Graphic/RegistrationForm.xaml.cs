@@ -1,24 +1,14 @@
 ﻿using Cozy_House.DatabaseAdd;
 using Cozy_House.models;
+using Cozy_House.models.Cozy_House.models;
 using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Graphic
 {
-    /// <summary>
-    /// Interaction logic for RegistrationForm.xaml
-    /// </summary>
     public partial class RegistrationForm : Window
     {
         public RegistrationForm()
@@ -28,32 +18,112 @@ namespace Graphic
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string name = FirstNameTextBox.Text;
-            string email = EmailTextBox.Text;
-            int age = int.Parse(AgeTextBox.Text); 
-            string address = AddressTextBox.Text;
-            string activity = FieldOfActivityTextBox.Text;
-            string prefer = PreferTextBox.Text;
-            string password = PasswordTextBox.Text;
-            string confirmpassword = ConfirmPasswordTextBox.Text;
-
-            DatabaseContext context = new DatabaseContext();
-            context.users.Add(new User()
+            if (!ValidateInputs())
             {
-                User_name = name,
-                User_Email = email,
-                User_Location = address,
-                FieldOfActivity = activity,
-                Prefer = prefer,
-            });
-            context.SaveChanges();
+                return;
+            }
+
+            try
+            {
+                using (var context = new DatabaseContext())
+                {
+                    context.EnsureDatabaseCreated();
+
+                    var existingUser = context.user.FirstOrDefault(u => u.User_Email == EmailTextBox.Text);
+                    if (existingUser != null)
+                    {
+                        MessageBox.Show("Користувач з такою електронною поштою вже існує.", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        return;
+                    }
+
+                    var newUser = new User
+                    {
+                        User_name = FirstNameTextBox.Text,
+                        User_Email = EmailTextBox.Text,
+                        User_age = int.Parse(AgeTextBox.Text),
+                        User_Location = AddressTextBox.Text,
+                        FieldOfActivity = FieldOfActivityTextBox.Text,
+                        Prefer = PreferTextBox.Text,
+                        Password = HashPassword(PasswordTextBox.Text),
+                        Password_Check = HashPassword(ConfirmPasswordTextBox.Text)
+                    };
+
+                    context.user.Add(newUser);
+
+                    int savedChanges = context.SaveChanges();
+                    Debug.WriteLine($"Кількість змін: {savedChanges}");
+
+                    if (savedChanges > 0)
+                    {
+                        MessageBox.Show("Реєстрація успішна!", "Успіх", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        new Validation().Show();
+                        Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Не вдалося зберегти дані.", "Помилка", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Помилка реєстрації: {ex}");
+                MessageBox.Show($"Помилка реєстрації: {ex.Message}", "Помилка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+        }
+
+        private bool ValidateInputs()
+        {
+            if (string.IsNullOrWhiteSpace(FirstNameTextBox.Text))
+            {
+                MessageBox.Show("Введіть ім'я.", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return false;
+            }
+
+            if (!IsValidEmail(EmailTextBox.Text))
+            {
+                MessageBox.Show("Введіть коректну електронну пошту.", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return false;
+            }
+
+            if (!int.TryParse(AgeTextBox.Text, out int age) || age < 18 || age > 120)
+            {
+                MessageBox.Show("Введіть коректний вік (18-120).", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(PasswordTextBox.Text) || PasswordTextBox.Text.Length < 8)
+            {
+                MessageBox.Show("Пароль повинен містити принаймні 8 символів, одну велику літеру та одну цифру.", "Помилка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
+            if (PasswordTextBox.Text != ConfirmPasswordTextBox.Text)
+            {
+                MessageBox.Show("Паролі не збігаються.", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return false;
+            }
+
+            return true;
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            return Regex.IsMatch(email, pattern);
+        }
+
+        private string HashPassword(string password)
+        {
+            return password;
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Validation validation = new Validation();
-            validation.Show();
-            this.Close();
+            new Validation().Show();
+            Close();
         }
     }
 }

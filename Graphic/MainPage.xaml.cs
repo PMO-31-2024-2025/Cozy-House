@@ -18,5 +18,13 @@ namespace Graphic
         {
             InitializeComponent();
         }
+
+        private void TakeAFriend_Click(object sender, MouseButtonEventArgs e)
+        {
+            AnimalAdoption animalAdoption = new AnimalAdoption();
+            Window currentWindow = Window.GetWindow(this);
+            animalAdoption.Show();
+            currentWindow.Close();
+        }
     }
 }

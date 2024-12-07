@@ -60,7 +60,7 @@ namespace Graphic {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Graphic;component/animaladoption.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Graphic;V1.0.0.0;component/animaladoption.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AnimalAdoption.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

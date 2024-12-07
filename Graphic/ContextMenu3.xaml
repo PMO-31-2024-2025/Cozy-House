@@ -1,0 +1,19 @@
+﻿<Window x:Class="Graphic.ContextMenu3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graphic"
+        mc:Ignorable="d"
+        Title="Context Menu" Height="80" Width="200"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Topmost="True">
+    <Border Background="White" CornerRadius="5" Padding="5" BorderBrush="Gray" BorderThickness="1">
+        <StackPanel>
+            <MenuItem Header="Копіювати текст" Click="CopyText_Click"/>
+            <MenuItem Header="Перейти" Click="Navigate_Click"/>
+            <Separator/>
+            <MenuItem Header="Назад" Click="Back_Click"/>
+        </StackPanel>
+    </Border>
+</Window>

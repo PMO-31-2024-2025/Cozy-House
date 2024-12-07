@@ -60,7 +60,7 @@ namespace Graphic.Pets {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Graphic;component/pets/mikepageinfo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Graphic;V1.0.0.0;component/pets/mikepageinfo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pets\MikePageInfo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

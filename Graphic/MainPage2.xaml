@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Graphic"
       mc:Ignorable="d"
       Title="MainPage2">
-    <Grid Width="1200">
+    <Grid Width="1200" Height="auto">
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
                 <GradientStop Color="#5B483A" Offset="0" />
@@ -19,7 +19,10 @@
                      Foreground="#F1CDB3" 
                      FontFamily="Georgia" 
                      TextAlignment="Center" 
-                     RenderTransformOrigin="-2.626,-6.544" />
+                     RenderTransformOrigin="-2.626,-6.544"
+                     MouseLeftButtonDown ="Validation_Click"
+                     MouseRightButtonDown="TextBlock_MouseRightButtonDown"
+                     Cursor="Hand"/>
             <TextBlock FontSize="13" 
                      Foreground="White" 
                      FontFamily="Georgia" 
@@ -27,16 +30,21 @@
                      Margin="0,10,0,0"
                      Text="Притулок для тварин" />
         </StackPanel>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="76" Margin="203,3,0,0" Width="98" 
+                Click="LogoButton_Click" Background="Transparent" BorderBrush="Transparent">
+            <Image Source="pack://application:,,,/Images/logo.png" />
+        </Button>
         <StackPanel Orientation="Horizontal" 
                     HorizontalAlignment="Right" 
                     VerticalAlignment="Top" 
-                    Margin="0,29,10,0">
+                    Margin="0,29,50,0">
             <TextBlock Text="Про притулок" 
                      FontSize="12" 
                      Foreground="White" 
                      Margin="0,0,30,0" 
                      FontFamily="Georgia" 
                      VerticalAlignment="Center"
+                     MouseRightButtonDown="TextBlock_MouseRightButtonDown"
                      MouseLeftButtonDown="AboutShelter_Click"
                      Cursor="Hand" />
             <TextBlock Text="Улюбленці" 
@@ -45,6 +53,7 @@
                      Margin="0,0,30,0" 
                      FontFamily="Georgia" 
                      VerticalAlignment="Center"
+                     MouseRightButtonDown="TextBlock_MouseRightButtonDown"
                      MouseLeftButtonDown="AnimalAdoption_Click"
                      Cursor="Hand" />
             <TextBlock Text="Допомога притулку" 
@@ -53,6 +62,7 @@
                      Margin="0,0,30,0" 
                      FontFamily="Georgia" 
                      VerticalAlignment="Center"
+                     MouseRightButtonDown="TextBlock_MouseRightButtonDown"
                      MouseLeftButtonDown="DonationWindow_Click"
                      Cursor="Hand" />
             <TextBlock Text="Контакти" 
@@ -61,6 +71,7 @@
                      Margin="0,0,30,0" 
                      FontFamily="Georgia" 
                      VerticalAlignment="Center"
+                     MouseRightButtonDown="TextBlock_MouseRightButtonDown"
                      MouseLeftButtonDown="Contacts_Click"
                      Cursor="Hand" />
         </StackPanel>

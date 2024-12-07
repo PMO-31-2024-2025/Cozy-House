@@ -60,7 +60,7 @@ namespace Graphic {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Graphic;component/contactpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Graphic;V1.0.0.0;component/contactpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ContactPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

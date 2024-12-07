@@ -10,11 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-rc.2.24474.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-rc.2.24474.1">
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,11 +45,13 @@
     <None Remove="Images\icon-toys.png" />
     <None Remove="Images\icon-vitamins.png" />
     <None Remove="Images\location.icon.png" />
+    <None Remove="Images\logo.png" />
     <None Remove="Images\mark.png" />
     <None Remove="Images\masya.png" />
     <None Remove="Images\mike.png" />
     <None Remove="Images\mishel.png" />
     <None Remove="Images\nany.png" />
+    <None Remove="Images\profile_cat.png" />
     <None Remove="Images\puppy.png" />
     <None Remove="Images\puppyANDkitty.png" />
     <None Remove="Images\sophia.png" />
@@ -90,11 +93,13 @@
     <Resource Include="Images\icon-sleeping-area.png" />
     <Resource Include="Images\icon-toys.png" />
     <Resource Include="Images\location.icon.png" />
+    <Resource Include="Images\logo.png" />
     <Resource Include="Images\mark.png" />
     <Resource Include="Images\masya.png" />
     <Resource Include="Images\mike.png" />
     <Resource Include="Images\mishel.png" />
     <Resource Include="Images\nany.png" />
+    <Resource Include="Images\profile_cat.png" />
     <Resource Include="Images\puppy.png" />
     <Resource Include="Images\puppyANDkitty.png" />
     <Resource Include="Images\sophia.png" />

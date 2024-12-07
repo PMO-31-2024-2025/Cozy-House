@@ -60,7 +60,7 @@ namespace Graphic {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Graphic;component/pets/fufapageinfo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Graphic;V1.0.0.0;component/pets/fufapageinfo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pets\FufaPageInfo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

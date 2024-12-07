@@ -43,5 +43,48 @@ namespace Graphic
             contactsWindow.Show();
             currentWindow.Close();
         }
+
+        private void LogoButton_Click(object sender, RoutedEventArgs e)
+        {
+                FirstWindow firstWindow = new FirstWindow();
+                Window currentWindow = Window.GetWindow(this);
+                firstWindow.Show();
+                currentWindow.Close();
+        }
+
+        private void TextBlock_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            CloseAllContextMenus();
+
+            if (sender is TextBlock textBlock)
+            {
+                ContextMenu3 contextMenu = new ContextMenu3(textBlock);
+
+                Point point = e.GetPosition(this);
+                contextMenu.Left = point.X + this.PointToScreen(new Point(0, 0)).X;
+                contextMenu.Top = point.Y + this.PointToScreen(new Point(0, 0)).Y;
+
+                contextMenu.Show();
+            }
+        }
+
+        private void CloseAllContextMenus()
+        {
+            foreach (Window window in Application.Current.Windows)
+            {
+                if (window is ContextMenu3)
+                {
+                    window.Close();
+                }
+            }
+        }
+
+        private void Validation_Click(object sender, MouseButtonEventArgs e)
+        {
+            Validation validation = new Validation();
+            Window currentWindow = Window.GetWindow(this);
+            validation.Show();
+            currentWindow.Close();
+        }
     }
 }
