@@ -41,11 +41,8 @@ namespace Graphic
             context.users.Add(new User()
             {
                 User_name = name,
-                User_age = age,
                 User_Email = email,
                 User_Location = address,
-                Password = password,
-                Password_Check = confirmpassword,
                 FieldOfActivity = activity,
                 Prefer = prefer,
             });
