@@ -1,4 +1,5 @@
-﻿using Cozy_House.models.Cozy_House.models;
+﻿using Cozy_House.DatabaseAdd;
+using Cozy_House.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,22 @@ namespace Graphic
 {
     public static class SaveManager
     {
-        public static User CurrentUser { get; set; } = null;
+        private static DatabaseContext _context = new DatabaseContext();
+
+        public static User CurrentUser { get; set; }
 
         public static bool IsUserLoggedIn => CurrentUser != null;
+
+        public static void LoadCurrentUser(int userId)
+        {
+            CurrentUser = _context.user.Find(userId);
+        }
+
+        public static void SetCurrentUser(User user)
+        {
+            CurrentUser = user;
+        }
+
+
     }
 }

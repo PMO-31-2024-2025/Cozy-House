@@ -1,34 +1,63 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using Microsoft.Data.Sqlite;
+using System.IO;
+using Cozy_House.models;
 
-namespace Graphic
+namespace Graphic.Pets
 {
-    /// <summary>
-    /// Interaction logic for HrystyaPageInfo.xaml
-    /// </summary>
     public partial class HrystyaPageInfo : Window
     {
-        public HrystyaPageInfo()
+        public Animal CurrentAnimal { get; set; }
+
+        public HrystyaPageInfo(int animalId)
         {
             InitializeComponent();
-
+            LoadAnimalData(animalId);
             CloseButton.Click += CloseButton_Click;
+
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+        private void LoadAnimalData(int animalId)
+        {
+            string connectionString = @"Data Source=C:\Users\WellDone\source\repos\Cozy-House\proj\Cozy_House\DatabaseAdd\Database\mydb.db;";
+
+            using (SqliteConnection connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT * FROM animals WHERE AnimalID = @AnimalId";
+
+                using (SqliteCommand command = new SqliteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@AnimalId", animalId);
+
+                    using (SqliteDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            CurrentAnimal = new Animal
+                            {
+                                AnimalID = reader.GetInt32(reader.GetOrdinal("AnimalID")),
+                                Animal_Name = reader.GetString(reader.GetOrdinal("Animal_Name")),
+                                Description = reader.GetString(reader.GetOrdinal("Description")),
+                                Species = reader.GetString(reader.GetOrdinal("Species")),
+                                Breed = reader.GetString(reader.GetOrdinal("Breed")),
+                                Animal_Age = reader.GetInt32(reader.GetOrdinal("Animal_Age")),
+                                Vaccine = reader.GetString(reader.GetOrdinal("Vaccine")),
+                                Infection = reader.GetString(reader.GetOrdinal("Infection")),
+                                Parasite = reader.GetString(reader.GetOrdinal("Parasite")),
+                                ImagePath = reader["ImagePath"].ToString()
+                            };
+
+                            DataContext = CurrentAnimal;
+                        }
+                    }
+                }
+            }
         }
     }
 }

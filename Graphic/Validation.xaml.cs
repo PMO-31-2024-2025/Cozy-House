@@ -1,4 +1,4 @@
-﻿using Cozy_House.models.Cozy_House.models;
+﻿using Cozy_House.models;
 using Microsoft.Data.Sqlite;
 using System;
 using System.Data.SqlClient;

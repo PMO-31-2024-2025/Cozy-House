@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Graphic.Pets;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -27,70 +27,54 @@ namespace Graphic
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ZhenyaPageInfo zenyaInfoWindow = new ZhenyaPageInfo();
-            zenyaInfoWindow.Owner = this;
-            zenyaInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            ZhenyaPageInfo zenyaInfoWindow = new ZhenyaPageInfo(16);
             zenyaInfoWindow.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            BasyaPageInfo basyaInfoWindow = new BasyaPageInfo();
-            basyaInfoWindow.Owner = this;
-            basyaInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            BasyaPageInfo basyaInfoWindow = new BasyaPageInfo(3);
             basyaInfoWindow.Show();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            FufaPageInfo fufaInfoWindow = new FufaPageInfo();
-            fufaInfoWindow.Owner = this;
-            fufaInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            FufaPageInfo fufaInfoWindow = new FufaPageInfo(7);
             fufaInfoWindow.Show();
 
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            BarsikPageInfo barsikInfoWindow = new BarsikPageInfo();
-            barsikInfoWindow.Owner = this;
-            barsikInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            BarsikPageInfo barsikInfoWindow = new BarsikPageInfo(2);
             barsikInfoWindow.Show();
 
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            SonyaPageInfo sonyaInfoWindow = new SonyaPageInfo();
-            sonyaInfoWindow.Owner = this;
-            sonyaInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            SonyaPageInfo sonyaInfoWindow = new SonyaPageInfo(14);
             sonyaInfoWindow.Show();
 
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            TimofiyPageInfo timofiyInfoWindow = new TimofiyPageInfo();
-            timofiyInfoWindow.Owner = this;
-            timofiyInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            TimofiyPageInfo timofiyInfoWindow = new TimofiyPageInfo(13);
             timofiyInfoWindow.Show();
 
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            CharlyPageInfo charlyInfoWindow = new CharlyPageInfo();
-            charlyInfoWindow.Owner = this;
-            charlyInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            CharlyPageInfo charlyInfoWindow = new CharlyPageInfo(6);
             charlyInfoWindow.Show();
 
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            HrystyaPageInfo hrystyaInfoWindow = new HrystyaPageInfo();
-            hrystyaInfoWindow.Owner = this;
-            hrystyaInfoWindow.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            HrystyaPageInfo hrystyaInfoWindow = new HrystyaPageInfo(8);
             hrystyaInfoWindow.Show();
 
         }

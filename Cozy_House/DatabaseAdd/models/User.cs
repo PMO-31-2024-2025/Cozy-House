@@ -10,26 +10,25 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Cozy_House.models
 {
-    namespace Cozy_House.models
+    [Table("User")]
+    public class User
     {
-        [Table("User")]
-        public class User
-        {
-            [Key]
-            public int User_id { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int User_id { get; set; }
 
-            public required string User_name { get; set; }
+        public required string User_name { get; set; }
 
-            [EmailAddress]
-            public required string User_Email { get; set; }
+        public byte[] ProfileImage { get; set; } = Array.Empty<byte>();
+        [EmailAddress]
+        public required string User_Email { get; set; }
 
-            public required int User_age { get; set; }
+        public required int User_age { get; set; }
 
-            public required string User_Location { get; set; }
-            public required string FieldOfActivity { get; set; }
-            public required string Prefer { get; set; }
-            public required string Password { get; set; }
-            public required string Password_Check { get; set; }
-        }
+        public required string User_Location { get; set; }
+        public required string FieldOfActivity { get; set; }
+        public required string Prefer { get; set; }
+        public required string Password { get; set; }
+        public required string Password_Check { get; set; }
     }
 }

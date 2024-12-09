@@ -15,6 +15,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="MSTest" Version="3.6.4" />
+    <PackageReference Include="MSTest.Analyzers" Version="3.6.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MSTest.TestAdapter" Version="3.6.4" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.6.4" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
@@ -51,8 +58,10 @@
     <None Remove="Images\mike.png" />
     <None Remove="Images\mishel.png" />
     <None Remove="Images\nany.png" />
+    <None Remove="Images\pets.png" />
     <None Remove="Images\profile_cat.png" />
     <None Remove="Images\puppy.png" />
+    <None Remove="Images\puppy1.png" />
     <None Remove="Images\puppyANDkitty.png" />
     <None Remove="Images\sophia.png" />
     <None Remove="Images\timofiy.png" />
@@ -99,8 +108,10 @@
     <Resource Include="Images\mike.png" />
     <Resource Include="Images\mishel.png" />
     <Resource Include="Images\nany.png" />
+    <Resource Include="Images\pets.png" />
     <Resource Include="Images\profile_cat.png" />
     <Resource Include="Images\puppy.png" />
+    <Resource Include="Images\puppy1.png" />
     <Resource Include="Images\puppyANDkitty.png" />
     <Resource Include="Images\sophia.png" />
     <Resource Include="Images\timofiy.png" />

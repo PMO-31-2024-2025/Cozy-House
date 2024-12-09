@@ -3,96 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\mainpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\mainpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Graphic\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\validation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\validation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\unittests\\databasetest3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\unittests\\databasetest3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\myprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\myprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\unittests\\databasetest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\unittests\\databasetest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\databaseadd\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\databaseadd\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\unittests\\databasetest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\unittests\\databasetest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\cozy_house.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\cozy_house.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\graphic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\graphic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\myprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\myprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\mainpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\mainpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\registrationform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\registrationform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\validation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\validation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\registrationform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\registrationform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\myprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\myprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\animaladoption.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\animaladoption.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\pets\\charlypageinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\pets\\charlypageinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\databaseadd\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\databaseadd\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\databaseadd\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\databaseadd\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\animaladoptionpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\animaladoptionpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\validation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\validation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\registrationform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\registrationform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\contextmenu2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\contextmenu2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\contextmenu3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\contextmenu3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\contextmenu3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\contextmenu3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\contextmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\contextmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\contextmenu2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\contextmenu2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\cozy_house\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA34E93F-29E6-497D-9831-9E868D1ED412}|Cozy_House\\Cozy_House.csproj|solutionrelative:cozy_house\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|c:\\users\\welldone\\source\\repos\\cozy-house\\proj\\graphic\\registrationform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A48694-D256-4F89-8276-8600A526F049}|Graphic\\Graphic.csproj|solutionrelative:graphic\\registrationform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,8 +74,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBaseTest3.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\UnitTests\\DataBaseTest3.cs",
+              "RelativeDocumentMoniker": "Cozy_House\\UnitTests\\DataBaseTest3.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\UnitTests\\DataBaseTest3.cs",
+              "RelativeToolTip": "Cozy_House\\UnitTests\\DataBaseTest3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:56:17.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBaseTest2.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\UnitTests\\DataBaseTest2.cs",
+              "RelativeDocumentMoniker": "Cozy_House\\UnitTests\\DataBaseTest2.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\UnitTests\\DataBaseTest2.cs",
+              "RelativeToolTip": "Cozy_House\\UnitTests\\DataBaseTest2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:54:24.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "Graphic\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "Graphic\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwCwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:45:05.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataBaseTest1.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\UnitTests\\DataBaseTest1.cs",
+              "RelativeDocumentMoniker": "Cozy_House\\UnitTests\\DataBaseTest1.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\UnitTests\\DataBaseTest1.cs",
+              "RelativeToolTip": "Cozy_House\\UnitTests\\DataBaseTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:39:47.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cozy_House",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\Cozy_House.csproj",
+              "RelativeDocumentMoniker": "Cozy_House\\Cozy_House.csproj",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\Cozy_House.csproj",
+              "RelativeToolTip": "Cozy_House\\Cozy_House.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T09:08:51.408Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
@@ -114,269 +151,142 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyProfile.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml.cs",
-              "RelativeDocumentMoniker": "Graphic\\MyProfile.xaml.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml.cs",
-              "RelativeToolTip": "Graphic\\MyProfile.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T16:20:20.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\DatabaseContext.cs",
-              "RelativeDocumentMoniker": "Cozy_House\\DatabaseAdd\\DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\DatabaseContext.cs",
-              "RelativeToolTip": "Cozy_House\\DatabaseAdd\\DatabaseContext.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwCcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:11:53.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Validation.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Validation.xaml.cs",
-              "RelativeDocumentMoniker": "Graphic\\Validation.xaml.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Validation.xaml.cs",
-              "RelativeToolTip": "Graphic\\Validation.xaml.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAmwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:58:15.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage2.xaml.cs",
-              "RelativeDocumentMoniker": "Graphic\\MainPage2.xaml.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage2.xaml.cs",
-              "RelativeToolTip": "Graphic\\MainPage2.xaml.cs",
-              "ViewState": "AgIAAAQAAACA//////8rwAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T16:02:54.475Z",
+              "DocumentIndex": 6,
+              "Title": "Graphic",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Graphic.csproj",
+              "RelativeDocumentMoniker": "Graphic\\Graphic.csproj",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Graphic.csproj",
+              "RelativeToolTip": "Graphic\\Graphic.csproj",
+              "ViewState": "AgIAAGwAAAAAm5mZmZkBwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T09:34:20.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SaveManager.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\SaveManager.cs",
-              "RelativeDocumentMoniker": "Graphic\\SaveManager.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\SaveManager.cs",
-              "RelativeToolTip": "Graphic\\SaveManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T16:42:26.998Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MyProfile.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml",
-              "RelativeDocumentMoniker": "Graphic\\MyProfile.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml",
-              "RelativeToolTip": "Graphic\\MyProfile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T13:50:54.022Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\Program.cs",
+              "RelativeDocumentMoniker": "Cozy_House\\Program.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\Program.cs",
+              "RelativeToolTip": "Cozy_House\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:58:54.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage2.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage2.xaml",
-              "RelativeDocumentMoniker": "Graphic\\MainPage2.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage2.xaml",
-              "RelativeToolTip": "Graphic\\MainPage2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T01:12:19.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\App.xaml",
               "RelativeDocumentMoniker": "Graphic\\App.xaml",
               "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\App.xaml",
               "RelativeToolTip": "Graphic\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T13:52:25.382Z"
+              "WhenOpened": "2024-12-08T18:28:09.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RegistrationForm.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\RegistrationForm.xaml.cs",
-              "RelativeDocumentMoniker": "Graphic\\RegistrationForm.xaml.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\RegistrationForm.xaml.cs",
-              "RelativeToolTip": "Graphic\\RegistrationForm.xaml.cs",
-              "ViewState": "AgIAAGkAAACAj5mZmZkawEMAAAANAAAAAAAAAA==",
+              "Title": "MyProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml",
+              "RelativeDocumentMoniker": "Graphic\\MyProfile.xaml",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml",
+              "RelativeToolTip": "Graphic\\MyProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T18:36:27.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml.cs",
+              "RelativeDocumentMoniker": "Graphic\\MyProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MyProfile.xaml.cs",
+              "RelativeToolTip": "Graphic\\MyProfile.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAJTMzM3MjwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T00:23:05.782Z"
+              "WhenOpened": "2024-12-08T18:35:09.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\models\\Animal.cs",
-              "RelativeDocumentMoniker": "Cozy_House\\DatabaseAdd\\models\\Animal.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\models\\Animal.cs",
-              "RelativeToolTip": "Cozy_House\\DatabaseAdd\\models\\Animal.cs",
-              "ViewState": "AgIAAAgAAACAmJmZmZkvwBwAAAASAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\models\\User.cs",
+              "RelativeDocumentMoniker": "Cozy_House\\DatabaseAdd\\models\\User.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\models\\User.cs",
+              "RelativeToolTip": "Cozy_House\\DatabaseAdd\\models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:27:18.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Validation.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Validation.xaml",
-              "RelativeDocumentMoniker": "Graphic\\Validation.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Validation.xaml",
-              "RelativeToolTip": "Graphic\\Validation.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T16:09:37.076Z"
+              "WhenOpened": "2024-12-09T08:15:05.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AnimalAdoption.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\AnimalAdoption.xaml",
-              "RelativeDocumentMoniker": "Graphic\\AnimalAdoption.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\AnimalAdoption.xaml",
-              "RelativeToolTip": "Graphic\\AnimalAdoption.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T09:56:00.126Z"
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Graphic\\SaveManager.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\SaveManager.cs",
+              "RelativeToolTip": "Graphic\\SaveManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:27:02.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "Validation.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Validation.xaml.cs",
+              "RelativeDocumentMoniker": "Graphic\\Validation.xaml.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Validation.xaml.cs",
+              "RelativeToolTip": "Graphic\\Validation.xaml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAiwG0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:51:52.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "RegistrationForm.xaml",
               "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\RegistrationForm.xaml",
               "RelativeDocumentMoniker": "Graphic\\RegistrationForm.xaml",
               "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\RegistrationForm.xaml",
               "RelativeToolTip": "Graphic\\RegistrationForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T00:40:09.45Z"
+              "WhenOpened": "2024-12-08T18:29:19.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\models\\User.cs",
-              "RelativeDocumentMoniker": "Cozy_House\\DatabaseAdd\\models\\User.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\DatabaseAdd\\models\\User.cs",
-              "RelativeToolTip": "Cozy_House\\DatabaseAdd\\models\\User.cs",
-              "ViewState": "AgIAAAgAAADkZGZmZmYowB8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T00:37:06.756Z"
+              "DocumentIndex": 10,
+              "Title": "CharlyPageInfo.xaml",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Pets\\CharlyPageInfo.xaml",
+              "RelativeDocumentMoniker": "Graphic\\Pets\\CharlyPageInfo.xaml",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\Pets\\CharlyPageInfo.xaml",
+              "RelativeToolTip": "Graphic\\Pets\\CharlyPageInfo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-09T08:32:36.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AnimalAdoptionPage2.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\AnimalAdoptionPage2.xaml",
-              "RelativeDocumentMoniker": "Graphic\\AnimalAdoptionPage2.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\AnimalAdoptionPage2.xaml",
-              "RelativeToolTip": "Graphic\\AnimalAdoptionPage2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T09:57:53.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Graphic\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage.xaml",
-              "RelativeToolTip": "Graphic\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T09:54:46.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Graphic\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\MainPage.xaml.cs",
-              "RelativeToolTip": "Graphic\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Title": "RegistrationForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\RegistrationForm.xaml.cs",
+              "RelativeDocumentMoniker": "Graphic\\RegistrationForm.xaml.cs",
+              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\RegistrationForm.xaml.cs",
+              "RelativeToolTip": "Graphic\\RegistrationForm.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAD4vykAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:55:17.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ContextMenu3.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu3.xaml.cs",
-              "RelativeDocumentMoniker": "Graphic\\ContextMenu3.xaml.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu3.xaml.cs",
-              "RelativeToolTip": "Graphic\\ContextMenu3.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAlZmZmdkuwEIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T01:15:23.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ContextMenu2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu2.xaml.cs",
-              "RelativeDocumentMoniker": "Graphic\\ContextMenu2.xaml.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu2.xaml.cs",
-              "RelativeToolTip": "Graphic\\ContextMenu2.xaml.cs",
-              "ViewState": "AgIAAC8AAACAyczMzMwywEMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T01:06:50.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ContextMenu3.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu3.xaml",
-              "RelativeDocumentMoniker": "Graphic\\ContextMenu3.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu3.xaml",
-              "RelativeToolTip": "Graphic\\ContextMenu3.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T22:38:02.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ContextMenu2.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu2.xaml",
-              "RelativeDocumentMoniker": "Graphic\\ContextMenu2.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu2.xaml",
-              "RelativeToolTip": "Graphic\\ContextMenu2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T22:36:47.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ContextMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu.xaml",
-              "RelativeDocumentMoniker": "Graphic\\ContextMenu.xaml",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Graphic\\ContextMenu.xaml",
-              "RelativeToolTip": "Graphic\\ContextMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T22:37:25.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\Program.cs",
-              "RelativeDocumentMoniker": "Cozy_House\\Program.cs",
-              "ToolTip": "C:\\Users\\WellDone\\source\\repos\\Cozy-House\\proj\\Cozy_House\\Program.cs",
-              "RelativeToolTip": "Cozy_House\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T22:43:18.155Z"
+              "WhenOpened": "2024-12-08T18:29:12.916Z",
+              "EditorCaption": ""
             }
           ]
         }

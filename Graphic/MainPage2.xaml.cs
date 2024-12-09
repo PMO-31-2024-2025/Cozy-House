@@ -81,10 +81,20 @@ namespace Graphic
 
         private void Validation_Click(object sender, MouseButtonEventArgs e)
         {
-            Validation validation = new Validation();
-            Window currentWindow = Window.GetWindow(this);
-            validation.Show();
-            currentWindow.Close();
+            if (SaveManager.IsUserLoggedIn)
+            {
+                MyProfile myProfile = new MyProfile();
+                Window currentWindow = Window.GetWindow(this);
+                myProfile.Show();
+                currentWindow.Close();
+            }
+            else
+            {
+                Validation validation = new Validation();
+                Window currentWindow = Window.GetWindow(this);
+                validation.Show();
+                currentWindow.Close();
+            }
         }
     }
 }

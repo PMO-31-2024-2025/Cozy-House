@@ -6,7 +6,7 @@
     mc:Ignorable="av"
     x:Class="Graphic.MyPrefer"
     Title="MyPrefer"
-    Height="620"
+    Height="640"
     Width="1200">
 
     <Window.Resources>
@@ -32,96 +32,28 @@
 
     <Grid>
         <Image Source="pack://application:,,,/Images/pets.png"
-               HorizontalAlignment="Right" 
-               VerticalAlignment="Stretch" 
+               HorizontalAlignment="Center" 
                Stretch="UniformToFill" 
                Opacity="0.3"
-               Panel.ZIndex="0"/>
+               Panel.ZIndex="0" Margin="0,105,0,0" Width="992"/>
 
-        <Grid>
+        <Grid Margin="0,0,0,-59">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="105"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0" Margin="528,23,0,8" Background="White"  HorizontalAlignment="Left">
-                <TextBlock Text="Обрані улюбленці " 
-                           FontSize="24"
+            <Frame x:Name="TopFrame"
+               Grid.Row="0"
+               Source="MainPage2.xaml"
+               NavigationUIVisibility="Hidden"
+               Margin="0,0,0,1" />
+            <TextBlock Text="Обрані улюбленці: " 
+                           FontSize="27"
                            Foreground="Gray"
                            FontFamily="Georgia"
-                           HorizontalAlignment="Center"/>
-            </StackPanel>
-
-            <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1" Panel.ZIndex="1">
-                <WrapPanel Orientation="Horizontal" Margin="10" x:Name="WrapPanelContent">
-                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA" Width="250">
-                        <Grid>
-                            <Button Content="X" 
-                                    HorizontalAlignment="Right" 
-                                    VerticalAlignment="Top" 
-                                    Width="20" 
-                                    Height="20" 
-                                    Background="Transparent" 
-                                    Foreground="#FFD3B6" 
-                                    BorderBrush="Transparent" 
-                                    FontWeight="Bold" 
-                                    Cursor="Hand"
-                                   />
-
-                            <StackPanel Margin="0,20,0,0">
-                                <Image Source="pack://application:,,,/Images/basya.png" 
-                                       HorizontalAlignment="Center" 
-                                       VerticalAlignment="Bottom" 
-                                       Height="120" 
-                                       Margin="5"/>
-                                <TextBlock Text="Бася" 
-                                           FontSize="18" 
-                                           Foreground="Gray"
-                                           FontFamily="Georgia"
-                                           TextAlignment="Center" 
-                                           Margin="10,5"/>
-                                <Button Content="Забрати" 
-                                        FontFamily="Georgia" FontWeight="ExtraLight"
-                                        Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1"
-                                        Style="{StaticResource RoundedButtonStyle}" Cursor="Hand" />
-                            </StackPanel>
-                        </Grid>
-                    </Border>
-
-                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10" Padding="10" Background="#FAFAFA" Width="250">
-                        <Grid>
-                            <Button Content="X" 
-                                    HorizontalAlignment="Right" 
-                                    VerticalAlignment="Top" 
-                                    Width="20" 
-                                    Height="20" 
-                                    Background="Transparent" 
-                                    Foreground="#FFD3B6" 
-                                    BorderBrush="Transparent" 
-                                    FontWeight="Bold" 
-                                    Cursor="Hand"
-                                    />
-
-                            <StackPanel Margin="0,20,0,0">
-                                <Image Source="pack://application:,,,/Images/baby.png" 
-                                       HorizontalAlignment="Center" 
-                                       Height="auto" 
-                                       Margin="5" Width="101"/>
-                                <TextBlock Text="Краля" 
-                                           FontSize="18" 
-                                           Foreground="Gray"
-                                           FontFamily="Georgia"
-                                           TextAlignment="Center" 
-                                           Margin="10,5"/>
-                                <Button Content="Забрати" 
-                                        FontFamily="Georgia" FontWeight="ExtraLight"
-                                        Background="#FAFAFA" BorderBrush="#FFD3B6" BorderThickness="1"
-                                        Style="{StaticResource RoundedButtonStyle}" Cursor="Hand"/>
-                            </StackPanel>
-                        </Grid>
-                    </Border>
-                </WrapPanel>
-            </ScrollViewer>
+                           Margin="10,26,941,397" Grid.Row="1"
+                           />
         </Grid>
     </Grid>
 </Window>

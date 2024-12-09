@@ -1,11 +1,11 @@
 ﻿using Cozy_House.DatabaseAdd;
 using Cozy_House.models;
-using Cozy_House.models.Cozy_House.models;
 using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace Graphic
 {
@@ -36,14 +36,17 @@ namespace Graphic
                         return;
                     }
 
+                    string fieldOfActivity = (FieldOfActivityTextBox.SelectedItem as ComboBoxItem)?.Content.ToString();
+                    string prefer = (PreferTextBox.SelectedItem as ComboBoxItem)?.Content.ToString();
+
                     var newUser = new User
                     {
                         User_name = FirstNameTextBox.Text,
                         User_Email = EmailTextBox.Text,
                         User_age = int.Parse(AgeTextBox.Text),
                         User_Location = AddressTextBox.Text,
-                        FieldOfActivity = FieldOfActivityTextBox.Text,
-                        Prefer = PreferTextBox.Text,
+                        FieldOfActivity = fieldOfActivity,
+                        Prefer = prefer,                   
                         Password = HashPassword(PasswordTextBox.Text),
                         Password_Check = HashPassword(ConfirmPasswordTextBox.Text)
                     };
@@ -88,7 +91,7 @@ namespace Graphic
                 return false;
             }
 
-            if (!int.TryParse(AgeTextBox.Text, out int age) || age < 18 || age > 120)
+            if (!int.TryParse(AgeTextBox.Text, out int age) || age < 18 ||  age > 120)
             {
                 MessageBox.Show("Введіть коректний вік (18-120).", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return false;
